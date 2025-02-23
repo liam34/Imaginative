@@ -5,20 +5,20 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,
-body {
+/* html, */
+/* body {
   display: grid;
   height: 100%;
   width: 100%;
   place-items: center;
-  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-}
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
+/* } */
 .wrapper {
   display: inline-flex;
-  margin-left: 300px;
+  margin-left: 0px;
 }
 .wrapper .icon {
-  margin: 0 20px;
+  margin: 0 10px;
   text-align: center;
   cursor: pointer;
   display: flex;
@@ -32,8 +32,8 @@ body {
 }
 .wrapper .icon span {
   display: block;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   color: #000;
   background: #fff;
   border-radius: 50%;
